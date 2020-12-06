@@ -34,15 +34,11 @@ namespace Proto_German_Approximator
 
             //Get inputs and directory for output
             Console.WriteLine("Welcome to the Proto-Germanic Approximator. Please enter the directory of the input .csv:");
-            string filelocation = @"C:\Users\rosem\source\repos\Proto-German-Approximator";
-            //string filelocation = Console.ReadLine();
+            string filelocation = Console.ReadLine();
             Console.WriteLine("Now please enter the name of the input .csv (including file extension):");
-            string inputfilename = @"example_input.csv";
-            //string inputfilename = Console.ReadLine();
+            string inputfilename = Console.ReadLine();
             Console.WriteLine("Now please enter the name of the output files:");
-            string outputfilename = @"testicles";
-            //string outputfilename = Console.ReadLine();
-
+            string outputfilename = Console.ReadLine();
 
             //Get files
             Inputter(filelocation, inputfilename);
@@ -123,10 +119,8 @@ namespace Proto_German_Approximator
             for (int i = 0; i < UberArray.Length; i++)
             {
                 LengthArray[i] = UberArray[i].Length;
-                Console.WriteLine($"current length = {LengthArray[i]}");
             }
 
-            
             return LengthArray;
         }
 
@@ -150,19 +144,8 @@ namespace Proto_German_Approximator
                 }
             }
 
-            aEnglishMeaning = EnglishMeanings[rootindex];
-            aPIERoot = root;
-            aEarlyChanges = outputarray[0];
-            aPostLaryngeal = outputarray[1];
-            aPostResonant = outputarray[2];
-            aPostGrimm1 = outputarray[3];
-            aPostGrimm2 = outputarray[4];
-            aPostGrimm3 = outputarray[5];
-            aPostVerner = outputarray[6];
-            aLate = outputarray[7];
-
             //Create new object whose attributes = the strings resulting from each set of regex replacements - do this for each set of replacements, per PIE root
-            ListofWords.Add(new Word(aEnglishMeaning, aPIERoot, aEarlyChanges, aPostLaryngeal, aPostResonant, aPostGrimm1, aPostGrimm2, aPostGrimm3, aPostVerner, aLate));
+            ListofWords.Add(new Word(EnglishMeanings[rootindex], root, outputarray[0], outputarray[1], outputarray[2], outputarray[3], outputarray[4], outputarray[5], outputarray[6], outputarray[7]));
         }
 
         //Apply the actual replacements via regex

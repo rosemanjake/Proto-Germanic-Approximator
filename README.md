@@ -12,7 +12,7 @@ Through time, these small systematic sound changes compounded, often provoking g
 
 ## Proto-Indo-European
 
-Just as English descends from Proto-Germanic, so too does Proto-Germanic descend from an even more ancient form of speech. This language was spokehttp://www.linguatics.com/images/indoeuro02c.jpgn by a community that lived five thousand years ago on the steppe between the Dnieper and Ural rivers in what is now Russia and Ukraine. In a series of migrations from that area they spread their language throughout Europe and Western Asia, ultimately giving rise to almost all the languages indigenous to the cresent reaching across Eurasia from Bangladesh to Portgual. Linguistics call this ancestral language Proto-Indo-European (PIE).
+Just as English descends from Proto-Germanic, so too does Proto-Germanic descend from an even more ancient form of speech. This language was spoken by a community that lived five thousand years ago on the steppe between the Dnieper and Ural rivers in what is now Russia and Ukraine. In a series of migrations from that area they spread their language throughout Europe and Western Asia. Almost all the languages indigenous to the cresent reaching across Eurasia from Bangladesh to Portgual are share common descent from this ancestral tongue. Linguistics call it Proto-Indo-European (PIE).
 
 ![Indo-European Language Family](http://www.linguatics.com/images/indoeuro02c.jpg)
 
@@ -20,25 +20,25 @@ Just as English descends from Proto-Germanic, so too does Proto-Germanic descend
 
 The speakers of PIE were illiterate pastoralists who never recorded their language in any form. Likewise, while Proto-Germanic speakers existed at a time when Classical Civilisation was producing unprecedented volumes of literature, the areas in which they lived lay well beyond the borders of Rome. Only partial fragments exist of Proto-Germanic words and phrases recorded in Elder Futhatk, the oldest known runic alphabet.    
 
-As such, linguistics must reconstruct Proto-Indo-European and Proto-Germanic. They do so using the Comparative Method. The Comparative Method involves analysing related fully atttested languages to determine which of the common elements they share ultimately derive from an ancestral language. In practise, this means identifying which sound changes led to one language differentiated itself from another.
+As such, linguists must reconstruct Proto-Indo-European and Proto-Germanic. They do so using the Comparative Method. The Comparative Method involves analysing related fully atttested languages to determine which of the common elements they share ultimately derive from an ancestral language. In practise, this means identifying which sound changes led to one language differentiating itself from another.
 
-It is important to note that when a sound changes in a language, it does so systemically, almost as if the speakers of the language were doing a find-and-replace. Consider the example above where the ingvaeonic dialect of Proto-Germanic dropped /n/ when followed by /s/. Properly understood, this was a change to the rules that determine which sounds can appear where in the language and was not a contortion of individual words. For that reason, the sound change occurred in all relevant words throughout the language all at once. 
+It is important to note that when a sound changes in a language, it does so systemically, almost as if the speakers of the language were doing a find-and-replace. Consider the example above where the ingvaeonic dialect of Proto-Germanic dropped /n/ when followed by /s/. Properly understood, this was a change to the rules that determine which sounds can appear where in the language and was not a contortion of individual words. For that reason, the sound change occurred in all applicable words throughout the language all at once. 
 
 ## Grimm's Law
 
-One of the first applications of The Comparative Method was the identification of a key sound change that led to dialects of Indo-European developing into Proto-Germanic. It was discovered by Jacon Grimm, one of the two Germanic brothers famous for recording folk tales in the 19th Centtury. At the time, it was unclear whether the Germanic languages were a part of the Indo-European language family. They appeared unusual, with many strange words and seemingly inexplicable forms.
+One of the first applications of The Comparative Method was the identification of a key sound change that led to dialects of Indo-European developing into Proto-Germanic. It was discovered by Jacob Grimm, one of the two German brothers famous for recording folk tales in the 19th Centtury. At the time, it was unclear whether the Germanic languages were a part of the Indo-European language family. They appeared unusual, with many strange words and seemingly inexplicable forms.
 
-However, Jacob noticed a systematic correspondence between certain sounds in modern Germanic languages and in Greek, Latin, and other Indo-European languages. For example, he noticed that where a /p/ appeared in Latin or Greek, there was an /f/ in the corresponding Germanic word. While in French one says "**p**ere" and "**p**eche," in English one says "**f**ather" and "**f**ish." 
+Jacob noticed a systematic correspondence between certain sounds in modern Germanic languages and in Greek, Latin, and other Indo-European languages. For example, he noticed that where a /p/ appeared in Latin or Greek, there was an /f/ in the corresponding Germanic word. While in French one says "**p**ere" and "**p**eche," in English one says "**f**ather" and "**f**ish." 
 
-In identifying this sound change Grimm not only demonstrated that PGmc had developed from PIE, but had also identified a part of the ancestral PIE forms of the words he investigated. Following the above example, many Indo-European languages had terms using /p/ where Germanic languages have /f/. As it is very unlikely that all those languages developed a /f/-/p/ shift indepdently, it is very safe to assume that the original PIE terms contained a /p/ sound.
+In identifying this sound change, Grimm not only demonstrated that PGmc had developed from PIE, but had also identified a part of the ancestral PIE forms of the words he investigated. Following the above example, many Indo-European languages had terms using /p/ where Germanic languages have /f/. As it is very unlikely that all those languages developed a /f/-/p/ shift indepdently, it is very safe to assume that the original PIE terms contained a /p/ sound and that the /p/-/f/ shift was a Germanic innovation.
 
-In identifying dozens and dozens of similar sound changes, linguistics use the comparative method to slowly build a view of the ancestral roots and words that were spoken in PIE, as well as even their grammar. 
+In identifying dozens and dozens of similar sound changes, linguistics use the Comparative Method to slowly build a view of the ancestral roots and words that were spoken in PIE, as well as even their grammar. 
 
 # Proto-Germanic Approximator 
 
 ## Overview
 
-The Proto-Germanic Approximator (PGA) is a program that generates an approximation of how PIE roots appeared in PGmc. That is to say, it takes PIE roots as its inputs and then applies the systematic sound changes that linguistics have identified . It is effectively an application of the comparative method in reverse. It can be used to test hypotheses regarding how a known PIE root may have appeared in PGmc.
+The Proto-Germanic Approximator (PGA) is a program that generates an approximation of how PIE roots appeared in PGmc. That is to say, it takes PIE roots as its inputs and then applies the systematic sound changes that linguistics have identified. It is effectively an application of the comparative method in reverse. It can be used to test hypotheses regarding how a known PIE root may have appeared in PGmc.
 
 ## Inputs
 
@@ -70,11 +70,11 @@ The different transformations that the PGA will apply to a root are:
 
 - **Early pattern**: Replaces any /s/ before or after either /t/ or /d/ with /ss/.
 - **Laryngeals**: Replaces laryngeal sounds h₁, h₂, and h₃ with vowels.
-- **Resonants:** Inserts /u/ ahead of syllabic resonants /m̥/, /n̥/, /l̥/, and /r̥/, 
+- **Resonants:** Inserts /u/ ahead of syllabic resonants /m̥/, /n̥/, /l̥/, and /r̥/.
 - **Grimm 1:** First stage of Grimm's Law, voiceless stops become fricatives.
 - **Grimm 2:** Second stage of Grimm's Law, voiced stops become voiceless.
 - **Grimm 3:** Third stage of Grimm's Law, aspirated voiced stops become plain stops.
-- **Verner's Law:** Voices constants when they occur just before a stressed syllable.
+- **Verner's Law:** Voices consonants when they occur just before a stressed syllable.
 - **Late changes:** Applies a series of miscellaneous final sound changes.
 
 The source for these changes is *Indo-European Languages and Culture*, Second Edition, by Ben Forston.
